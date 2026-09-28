@@ -68,7 +68,7 @@ Na discussão do caso, duas colegas chegam a conclusões opostas. A primeira sus
 
 Para decidir entre as duas, é preciso responder a quatro perguntas. O que mede um odds ratio de 0,19? Em que condições ele pode ser lido como redução de risco? O desenho deste estudo permite estimar risco? E quantas crianças como esta precisariam receber o antiviral para evitar uma internação?
 
-O material percorre os conceitos na ordem em que o caso os exige: a tabela dois por dois (seção 2), risco e risco relativo (3), odds e odds ratio (4), o estudo caso-controle (5), a suposição do desfecho raro (6), a conversão aproximada de odds ratio em risco relativo (7), confundimento (8), E-value (9) e número necessário para tratar (10). A seção 11 volta à decisão e a seção 12 lê criticamente o desenho do estudo. Os blocos de código reproduzem cada número a partir das tabelas publicadas do artigo; não é preciso programar para acompanhar o texto.
+O material percorre os conceitos na ordem em que o caso os exige: a tabela dois por dois (seção 2), risco e risco relativo (3), odds e odds ratio (4), o estudo caso-controle (5), a suposição do desfecho raro (6), a conversão aproximada de odds ratio em risco relativo (7), confundimento (8), E-value (9) e número necessário para tratar (10). A seção 11 volta à decisão e a seção 12 lê criticamente o desenho do estudo; os exercícios estão na seção 14 e suas soluções, na seção 15. Os blocos de código reproduzem cada número a partir das tabelas publicadas do artigo; não é preciso programar para acompanhar o texto.
 
 Os dois blocos abaixo preparam o ambiente: bibliotecas, estilo dos gráficos e duas funções escritas para este material.
 """)
@@ -764,7 +764,7 @@ md(r"""
 
 **Exercício 9.** Suponha RR de 0,35 para o antiviral precoce. Calcule o NNT para uma criança com risco basal de internação de 3% e para outra com risco de 30%.
 
-O bloco abaixo resolve os Exercícios 2 e 3 e pode ser usado como calculadora para os demais.
+As soluções estão na seção 15. O bloco abaixo resolve os Exercícios 2 e 3 e pode ser usado como calculadora para os demais.
 """)
 
 code(r"""
@@ -780,8 +780,9 @@ two_by_two(40, 360, 90, 510)
 """)
 
 md(r"""
-<details>
-<summary><b>Soluções (clique para expandir)</b></summary>
+## 15. Soluções dos exercícios
+
+Tente resolver cada exercício antes de ler a solução.
 
 **Exercício 1.** Exposição nas linhas, desfecho nas colunas: a = 40 (salina e internado), b = 360 (salina e não internado), c = 90 (sem salina e internado), d = 510 (sem salina e não internado).
 
@@ -800,8 +801,6 @@ md(r"""
 **Exercício 8.** (a) Invertendo, 2,0; $E=2{,}0+\sqrt{2{,}0\times1{,}0}=3{,}41$. (b) Com desfecho comum, $\mathrm{RR}\approx\sqrt{0{,}5}=0{,}707$; invertendo, 1,414; $E=1{,}414+\sqrt{1{,}414\times0{,}414}=2{,}18$.
 
 **Exercício 9.** Risco de 3%: redução absoluta $0{,}03\times0{,}65=0{,}0195$, NNT = 52 (51,3 arredondado para cima). Risco de 30%: redução $0{,}195$, NNT = 6 (5,1 arredondado para cima).
-
-</details>
 """)
 
 # =============================================================== further reading and references

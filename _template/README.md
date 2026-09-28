@@ -16,7 +16,7 @@ Copie esta pasta para `AAAA-MM-DD-tema-curto/`, use o `build_notebook.py` do enc
 4. De volta à decisão: reavaliar as propostas da introdução; o que se pode e o que não se pode concluir.
 5. Aplicações em saúde: leitura crítica do artigo.
 6. Resumo: um parágrafo por conceito, nada novo.
-7. Exercícios (casos de saúde realistas) com soluções recolhíveis.
+7. Exercícios (casos de saúde realistas) e, em seguida, uma seção visível com as soluções comentadas.
 8. Leituras complementares e referências numeradas (Vancouver).
 
 ## Regras de estilo
