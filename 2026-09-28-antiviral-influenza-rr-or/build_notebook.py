@@ -49,11 +49,11 @@ Artigo em discussão: Huang Y-N, Chang C-J, Dai Y-L, et al. *Early Antiviral The
 
 Ao final deste material, você será capaz de:
 
-- montar a tabela dois por dois de um artigo e calcular, a partir dela, risco, risco relativo, odds e odds ratio;
-- explicar por que um estudo caso-controle clássico estima odds ratio e não risco;
-- decidir, com um critério explícito, quando um odds ratio pode ser lido como risco relativo, e convertê-lo de forma aproximada;
-- distinguir associação bruta de associação ajustada e interpretar o E-value;
-- traduzir um efeito relativo em número necessário para tratar, para um risco basal especificado.
+- Montar a tabela dois por dois de um artigo e calcular, a partir dela, risco, risco relativo, odds e odds ratio.
+- Explicar por que um estudo caso-controle clássico estima odds ratio e não risco.
+- Decidir, com um critério explícito, quando um odds ratio pode ser lido como risco relativo, e convertê-lo de forma aproximada.
+- Distinguir associação bruta de associação ajustada e interpretar o E-value.
+- Traduzir um efeito relativo em número necessário para tratar, para um risco basal especificado.
 """)
 
 # =============================================================== 1. introduction

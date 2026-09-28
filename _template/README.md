@@ -10,7 +10,7 @@ Copie esta pasta para `AAAA-MM-DD-tema-curto/`, use o `build_notebook.py` do enc
 
 ## Arquitetura do material (fixa, nesta ordem)
 
-1. Título, artigo em discussão e objetivos de aprendizagem (3 a 5, cada um algo que o leitor consegue fazer).
+1. Título, artigo em discussão e objetivos de aprendizagem (3 a 5, cada um algo que o leitor consegue fazer; cada item começa com maiúscula e termina com ponto).
 2. Introdução: o caso clínico ancorado no artigo, propostas concorrentes de colegas e as perguntas que o leitor ainda não sabe responder; parágrafo com o percurso.
 3. Uma seção por conceito, com o nome do conceito, sempre nesta ordem: transição; definição em caixa cinza com citação; aplicação ao artigo; fórmula e proposição com demonstração; cálculo à mão e depois o Python que o confirma; erro comum; quadro "Pratique" apontando os exercícios.
 4. De volta à decisão: reavaliar as propostas da introdução; o que se pode e o que não se pode concluir.
