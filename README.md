@@ -1,6 +1,6 @@
 # Journal Club
 
-Clube de revista de Pediatria: um artigo por segunda-feira, com foco no raciocínio estatístico que o residente precisa para ler e aplicar a evidência.
+Material de estudo do clube de revista de Pediatria: cada encontro parte de um artigo e desenvolve, conceito a conceito, o raciocínio metodológico necessário para lê-lo e aplicá-lo.
 
 **Site:** https://marcelosilva2604.github.io/journalclub/
 
@@ -15,11 +15,14 @@ Clube de revista de Pediatria: um artigo por segunda-feira, com foco no raciocí
 ```
 journalclub/
 ├── index.html                 # home page (list of sessions)
+├── CLAUDE.md                  # project guide and per-session workflow
+├── STYLE.md                   # editorial line (rigid)
 ├── _template/                 # skeleton for the next session
 └── AAAA-MM-DD-tema/
     ├── README.md              # reference, DOI, topics
     ├── build_notebook.py      # generates notebook.ipynb (source of truth)
     ├── notebook.ipynb         # executed notebook
+    ├── SOURCE_CHECKS.md       # verification log (numbers and references)
     └── index.html             # HTML export shown on the site
 tools/export_html.py            # styled HTML export used by every session
 ```
@@ -33,7 +36,7 @@ jupyter nbconvert --to notebook --execute --inplace notebook.ipynb
 cd .. && python tools/export_html.py AAAA-MM-DD-tema
 ```
 
-A arquitetura e as regras de estilo de cada material estão em `_template/README.md`.
+O fluxo completo de um encontro está em `CLAUDE.md`, a linha editorial em `STYLE.md` e o checklist em `_template/README.md`.
 
 Depois, adicione o encontro na `index.html` da raiz e na tabela acima.
 
