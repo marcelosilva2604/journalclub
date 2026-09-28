@@ -1,0 +1,22 @@
+# Articles are never redistributed (copyright)
+*.pdf
+
+# Never commit patient-level data
+*.csv
+*.xlsx
+*.xls
+*.sav
+*.dta
+*.parquet
+data/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+
+# OS / editors
+.DS_Store
+Icon?
+.vscode/
