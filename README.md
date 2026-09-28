@@ -15,14 +15,10 @@ Material de estudo do clube de revista de Pediatria: cada encontro parte de um a
 ```
 journalclub/
 ├── index.html                 # home page (list of sessions)
-├── CLAUDE.md                  # project guide and per-session workflow
-├── STYLE.md                   # editorial line (rigid)
-├── _template/                 # skeleton for the next session
 └── AAAA-MM-DD-tema/
     ├── README.md              # reference, DOI, topics
     ├── build_notebook.py      # generates notebook.ipynb (source of truth)
     ├── notebook.ipynb         # executed notebook
-    ├── SOURCE_CHECKS.md       # verification log (numbers and references)
     └── index.html             # HTML export shown on the site
 tools/export_html.py            # styled HTML export used by every session
 ```
@@ -35,8 +31,6 @@ python build_notebook.py
 jupyter nbconvert --to notebook --execute --inplace notebook.ipynb
 cd .. && python tools/export_html.py AAAA-MM-DD-tema
 ```
-
-O fluxo completo de um encontro está em `CLAUDE.md`, a linha editorial em `STYLE.md` e o checklist em `_template/README.md`.
 
 Depois, adicione o encontro na `index.html` da raiz e na tabela acima.
 

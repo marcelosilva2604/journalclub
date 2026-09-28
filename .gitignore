@@ -20,3 +20,9 @@ __pycache__/
 .DS_Store
 Icon?
 .vscode/
+
+# Internal guidance: kept locally, never published
+CLAUDE.md
+STYLE.md
+_template/
+**/SOURCE_CHECKS.md
